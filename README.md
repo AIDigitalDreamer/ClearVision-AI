@@ -9,7 +9,7 @@ Follow these steps to set up and run the project in Google Colab:
 - Go to [Google Colab](https://colab.research.google.com/)  
 - Create a **new Python notebook**  
 
-### 2️⃣ Upload the Model File
+### 2️⃣ Upload the Model Files
 - Download the pre-trained models from here:  
   👉 [Download Models](https://drive.google.com/drive/folders/1ox0D2DQ1nQThEYuGslx_5-XEuiS0Jzlb?usp=sharing)  
 - Upload **`cataract_full_model_stage2.keras`** (main model) and optionally **`cataract_stage2_ckpt.keras`** (checkpoint) into Colab by:  
@@ -24,9 +24,11 @@ Ngrok is needed to create a public link for the web app.
 3. After logging in, go to the **Dashboard → Your Authtoken**  
 4. Copy the token (it looks like a long random string)  
 
-### 4️⃣ Paste the Code
-Paste the provided Colab code into your notebook.  
-👉 Make sure to replace this line with your token:  
+### 4️⃣ Copy the Code from GitHub
+- Go to this repository and open **`ClearVision-AI.ipynb`**.
+- Copy all the code and paste it into your Colab notebook.  
+
+👉 Don’t forget to replace this line with your Ngrok token:
 
 ```python
 NGROK_AUTHTOKEN = "PASTE_YOUR_TOKEN_HERE"
