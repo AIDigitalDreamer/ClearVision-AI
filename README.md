@@ -10,7 +10,7 @@ Follow these steps to set up and run the project in Google Colab:
 
 ### 2️⃣ Upload the Model File
 - Download the pre-trained model from here:  
-  👉 [Download cataract_full_model_stage2.keras](YOUR_GOOGLE_DRIVE_LINK)  
+  👉 [Download cataract_full_model_stage2.keras]((https://drive.google.com/drive/folders/1ox0D2DQ1nQThEYuGslx_5-XEuiS0Jzlb?usp=sharing))  
 - In Colab, click the **folder icon** on the left sidebar  
 - Click **Upload** and upload the file `cataract_full_model_stage2.keras`  
 
