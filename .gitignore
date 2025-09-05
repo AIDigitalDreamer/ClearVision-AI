@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ML / DL model files (too large for GitHub)
+models/*.h5
+models/*.keras
+models/*.pkl
+models/*.pt
+models/*.ckpt
+
+# Training artifacts
+checkpoints/
+logs/
+runs/
+tensorboard/
+
+# Data files
+data/
+*.csv
+*.zip
+*.tar
+*.gz
+*.npz
+*.npy
+
+# Images / Uploads
+uploads/
+static/uploads/
+
